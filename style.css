@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #F0DCD9;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cont {
+    background-color: #DE8EA9;
+    padding: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Tit {
+   color: #CFE3E8;
+   font-size: 40px;
+   margin-bottom: 50px ;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Botao {
+    margin-top: 50px;
+    color: #D56689;
+    background: #90DAD7;
+    border: none;
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.Camp {
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #DE8EA9;
+    color: #DE8EA9;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Camp:focus {
+    outline: none;
+}
